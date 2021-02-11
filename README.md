@@ -7,5 +7,7 @@
 - Static typing
 - PascalCase functions
 - PascalCase variables
+- PascalCase types
 - Haskell style function application
 - No generics/polymorphism
+- No type inference
