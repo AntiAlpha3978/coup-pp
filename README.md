@@ -9,7 +9,7 @@
 - snake_case variables
 - PascalCase types
 - Haskell style function application
-- No generics/polymorphism
+- Yes generics
 - No type inference
 
 ```
