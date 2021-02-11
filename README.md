@@ -18,6 +18,10 @@ add.Int(x.Int, y.Int) <- x + y
 add.Int(x.Int, y.Int) <- x.Int + y.Int
 // When they can be inferred, type annotations (.Int) are only required in function signatures
 
+// Overloading! There are no traits/inheritance/typeclasses, so you have to do this
+difference.Int(x.Int, y.Int) <- x - y
+difference.Float(x.Float, y.Float) <- x - y
+
 // You could also do this, but that's cursed
 function_1.Int(x.Int, x.Float) <- some_other_function(x.Int, x.Float)
 
