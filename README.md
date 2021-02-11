@@ -1,11 +1,11 @@
 # coup-pp
-- Interpreted
+- Compiled
 - Functional
 - 4 spaces
 - Ownership
 - Known Types: Int, Float, Char, String (A list of chars)
 - Static typing
-- PascalCase functions
+- camelCase functions
 - PascalCase variables
 - PascalCase types
 - Haskell style function application
